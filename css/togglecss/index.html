@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head id ="h">
+    <title>Togglecss add</title>
+</head>
+<body><header>My website</header>
+    <nav>
+        <ul><li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+    <h1>Welco3e to My</h1>
+    <p>Ladies & Gentlemen!!!</p>
+    <strong>This</strong><br>
+    <button onclick="addcss()"
+        type="button">
+        Toggle it
+    </button>
+    <br>
+    <footer>
+        <marquee>&copy; copyright R@#u|</marquee>
+    </footer>
+    <script>
+        let c=0;
+        function addcss(){
+            c++
+            if(c%2 !== 0){
+    document.getElementById('h').innerHTML='<title>Togglecss add</title>\n <link rel="stylesheet" href="./styles.css"/>'
+}
+else{
+                document.getElementById('h').innerHTML='<title>Togglecss add</title>'
+
+            }
+        }
+    </script>
+</body>
+</html>

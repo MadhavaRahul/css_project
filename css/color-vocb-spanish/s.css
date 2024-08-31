@@ -1,0 +1,17 @@
+*{
+    font-weight: normal;
+    color: beige;
+    background-color: black;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width:200px
+}
+#red{
+    color:red
+}
+#org{color:orange}
+#blue{color:blue}
+#green{color:green}
+#yel{color:yellow}
