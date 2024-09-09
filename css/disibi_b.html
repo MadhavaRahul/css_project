@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{
+            background: linear-gradient(red,white);
+            height:100%;
+        }
+        body > div:first-of-type{
+            background-color: orange;
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
+        body > div:first-of-type + div{
+            background-color: powderblue;
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
+        
+        body > div:first-of-type + div+ div{
+            background-color: cyan;
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>orange</div>
+    <div>powderblue</div>
+    <div>cyan</div>
+    
+</body>
+</html>
