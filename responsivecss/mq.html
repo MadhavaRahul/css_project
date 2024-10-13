@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MQ</title>
+    <style>
+        body {
+            background-color: orangered;
+        }
+
+        /* For screens with max-width of 480px (mobile screens) */
+        /* @media only screen and  (min-width: 499px) and (orientation:landscape){            
+            body {
+                background-color: black;
+            }
+        }                 not working */
+
+        /* For screens between 481px and 1200px (tablets and small desktops) */
+        @media screen and (min-width: 500px) and (max-width: 1200px) and (orientation:landscape){            
+            body {
+                background-color: cadetblue;
+            }
+        }
+
+        /* For screens between 1201px and 1600px (larger desktops) */
+        @media screen and (min-width: 1201px) and (max-width: 1500px) and (orientation:landscape){            
+            body {
+                background-color: silver;
+            }
+        }
+
+        /* For screens larger than 1601px (very large desktops) */
+        @media screen and (min-width: 1501px) and (orientation:landscape){            
+            body {
+                background-color: darkorchid;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
